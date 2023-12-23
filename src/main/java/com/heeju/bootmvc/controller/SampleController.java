@@ -16,7 +16,7 @@ public class SampleController {
     public ModelAndView hello() {
         log.info("hello................");
         String msg = "HELLO WORLD";
-//test
+
         return new ModelAndView("hello", "msg", msg);
     }
 
